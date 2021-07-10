@@ -1,0 +1,52 @@
+开源硬件实战
+Day1：
+	Git:
+	
+Git命令：git clone; git add; git commit; git push; git pull
+
+markdown:
+一种标签语言
+
+GNU:
+	自由软件运动
+	GPL协议：著名的开源协议。
+	GNU is not UNIX.
+
+Arduino：
+	开源硬件
+
+Arduino编程：
+
+结构
+void setup()   初始化变量，管脚模式，调用库函数等
+void loop()  连续执行函数内的语句
+
+功能
+数字 I/O
+pinMode(pin, mode)   数字IO口输入输出模式定义函数，pin表示为0～13， mode表示为INPUT或OUTPUT。
+digitalWrite(pin, value)    数字IO口输出电平定义函数，pin表示为0～13，value表示为HIGH或LOW。
+int digitalRead(pin)    数字IO口读输入电平函数，pin表示为0～13，value表示为HIGH或LOW。
+delay(ms)    延时函数（单位ms）。
+数据类型：
+boolean  布尔类型
+char
+byte  字节类型 两个字节
+int
+unsigned int
+long
+unsigned long
+float
+double
+string
+array
+void 无类型
+作业1：
+	Git
+	www.github.com
+	虚拟开发环境:
+	www.tinkercad.com
+	arduino官网：
+	www.arduino.cc
+1.注册github用户，完成helloworld教程
+2.在github上创建仓库，仓库用自己的学号命名
+3.将今天的笔记写入github仓库
